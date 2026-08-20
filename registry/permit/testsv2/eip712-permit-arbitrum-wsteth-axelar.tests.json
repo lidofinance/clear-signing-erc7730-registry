@@ -1,6 +1,6 @@
 {
   "$schema": "../../../specs/erc7730-tests-v2.schema.json",
-  "descriptor": "../eip712-permit-arbitrum-wsteth.json",
+  "descriptor": "../eip712-permit-arbitrum-wsteth-axelar.json",
   "tests": [
     {
       "description": "Authorize spending of tokens",

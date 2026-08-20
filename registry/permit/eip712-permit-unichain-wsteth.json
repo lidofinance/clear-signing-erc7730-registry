@@ -3,7 +3,7 @@
   "includes": "../../ercs/eip712-erc2612-permit.json",
   "context": {
     "eip712": {
-      "deployments": [{ "chainId": 10, "address": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb" }],
+      "deployments": [{ "chainId": 130, "address": "0xc02fE7317D4eb8753a02c35fe019786854A92001" }],
       "domain": { "name": "Wrapped liquid staked Ether 2.0", "version": "2" }
     }
   },
