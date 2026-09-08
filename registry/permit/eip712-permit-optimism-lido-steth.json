@@ -3,8 +3,8 @@
   "includes": "../../ercs/eip712-erc2612-permit.json",
   "context": {
     "eip712": {
-      "deployments": [{ "chainId": 10, "address": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb" }],
-      "domain": { "name": "Wrapped liquid staked Ether 2.0", "version": "2" }
+      "deployments": [{ "chainId": 10, "address": "0x76A50b8c7349cCDDb7578c6627e79b5d99D24138" }],
+      "domain": { "name": "Liquid staked Ether 2.0", "version": "1" }
     }
   },
   "metadata": { "owner": "Lido DAO" }
