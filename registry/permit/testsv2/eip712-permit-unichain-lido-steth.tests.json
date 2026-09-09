@@ -1,10 +1,8 @@
 {
   "$schema": "../../../specs/erc7730-tests-v2.schema.json",
-  "descriptor": "../eip712-permit-optimism-wsteth.json",
+  "descriptor": "../eip712-permit-unichain-lido-steth.json",
   "dataProvider": {
-    "tokens": {
-      "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb": { "symbol": "wstETH", "decimals": 18, "name": "Wrapped liquid staked Ether 2.0" }
-    }
+    "tokens": { "0x81f2508aac59757ef7425ddc9717ab5c2aa0a84f": { "symbol": "stETH", "decimals": 18, "name": "Liquid staked Ether 2.0" } }
   },
   "tests": [
     {
@@ -27,10 +25,10 @@
         },
         "primaryType": "Permit",
         "domain": {
-          "name": "Wrapped liquid staked Ether 2.0",
-          "version": "2",
-          "chainId": 10,
-          "verifyingContract": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb"
+          "name": "Liquid staked Ether 2.0",
+          "version": "1",
+          "chainId": 130,
+          "verifyingContract": "0x81f2508AAC59757EF7425DDc9717AB5c2AA0A84F"
         },
         "message": {
           "owner": "0x08b00cEEE2Fb66029B53D76110B19eeAabfd1e65",
@@ -45,7 +43,7 @@
         "owner": "Lido DAO",
         "fields": [
           { "label": "Spender", "value": "0xE66AA98B55C5A55c9Af9da12FE39B8868af9a346" },
-          { "label": "Max spending amount", "value": "0.75 wstETH" },
+          { "label": "Max spending amount", "value": "0.75 stETH" },
           { "label": "Valid until", "value": "2027-01-01 00:00:00Z" }
         ]
       }
